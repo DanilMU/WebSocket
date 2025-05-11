@@ -1,3 +1,6 @@
-const trimStr = (str) => str.name.trim().toLowerCase();
+const trimStr = (str) => {
+  if (typeof str !== "string") return "";
+  return str.trim().toLowerCase();
+};
 
-exports.trimStr = trimStr
+module.exports = { trimStr };
