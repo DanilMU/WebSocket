@@ -35,7 +35,7 @@ const Main = () => {
   return (
     <div className={styles.wrap}>
       <div className={styles.container}>
-        <h1 className={styles.heading}>Telegram Clone</h1>
+        <h1 className={styles.heading}>Chat-Message</h1>
         <p className={styles.subtitle}>Join a chat room to start messaging</p>
 
         <form className={styles.form}>
